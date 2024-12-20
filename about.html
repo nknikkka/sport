@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KUDOKATANA</title> 
+<style>
+	footer h2 {
+            color: white;
+        }
+		 /* Обертка для всей навигации */
+.navigation {
+    display: flex; /* Используем Flexbox для выравнивания элементов в строку */
+    justify-content: space-between; /* Равномерно распределяем пространство между логотипом и меню */
+    align-items: center; /* Центрируем элементы по вертикали */
+    padding: 10px 20px; /* Отступы для контейнера */
+}
+
+/* Контейнер для логотипа и текста */
+.logo-container {
+    display: flex; /* Логотип и текст в строку */
+    align-items: center; /* Центрируем логотип и текст по вертикали */
+}
+
+/* Логотип */
+.logo-img {
+    width: 30px; /* Устанавливаем ширину логотипа */
+    height: auto; /* Сохраняем пропорции изображения */
+    margin-right: 10px; /* Отступ между логотипом и текстом */
+}
+
+/* Текст названия */
+.logo-text {
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: #333; /* Цвет текста */
+}
+
+/* Меню */
+.menu-list {
+    list-style: none; /* Убираем стандартные маркеры списка */
+    display: flex; /* Размещение пунктов меню в строку */
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    margin-right: 20px; /* Отступы между пунктами меню */
+}
+
+.menu-list li a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #333; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+}
+ 
+
+</style>
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<div class="logo-container">
+			<img src="t/menu.png" class="logo" alt="Logo" style="width: 30px; height: 30px;">
+			<span class="logo-text">KUDOKATANA</span>
+		</div>
+	
+		<div class="navigation">
+			<ul class="menu-list">
+				<li><a href="index.php" class="active">Головна</a></li>
+				<li><a href="about.html">Про нас</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Про нас
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- About section starts from here -->
+	<section id="about-container">
+		<div class="about-img">
+			<img src="t/a1.jpg" alt="">
+		</div>
+		<div class="about-text">
+			<h2>
+Ласкаво просимо до нашого спорт-клубу!			</h2>
+			<p>
+Починайте просто зараз			</p>
+
+			<div class="about-fe">
+				<img src="t/fe.png" alt="">
+				<div class="fe-text">
+					<h5>400+ тренувань</h5>
+					<p>
+Починайте прямо зараз					</p>
+				</div>
+			</div>
+			<div class="about-fe">
+				<img src="img/fe2.png" alt="">
+				<div class="fe-text">
+					<h5>Багаторічний абонемент</h5>
+					<p>
+Абонемент
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About section ends from here -->
+
+
+ 
+
+
+	<!-- Trust section starts from here -->
+	<section id="trust">
+		<h1>Нам довіряють</h1>
+		<div class="trust-img">
+			<img src="img/trust (1).png" alt="">
+			<img src="img/trust (2).png" alt="">
+			<img src="img/trust (3).png" alt="">
+			<img src="img/trust (4).png" alt="">
+			<img src="img/trust (5).png" alt="">
+			<img src="img/trust (6).png" alt="">
+		</div>
+	</section>
+	<!-- Trust section ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+	 
+		<div class="footer-col">
+        <h2>Про нас</h2>
+            <p>Групові та індивідуальні тренування для дорослих та дітей з 4-ох років</p>
+            <ul class="social">
+                <li><a href="https://www.instagram.com" class="fab fa-instagram" target="_blank">Instagram (20+)</a></li>
+                <li><a href="https://www.facebook.com" class="fab fa-facebook" target="_blank">Facebook (20+)</a></li>
+             </ul>
+		</div>
+
+		<div class="footer-col">
+        <h2>Адреси</h2>
+            <ul class="f-link">
+                <li>м.Вінниця, Хмельницьке шосе 105б (Kudo club "Katana")</li>
+                <li>м.Вінниця, Келецька 97</li>
+            </ul>
+		</div>
+
+		<div class="footer-col">
+        <h2>Години роботи</h2>
+            <p>Понеділок – П'ятниця: 9:00 – 19:00</p>
+            <p>Субота: 10:00 – 16:00</p>
+            <p>Неділя: вихідний</p>
+		</div>
+
+		<div class="footer-col">
+        <h2>Зворотній зв'язок</h2>
+            <p>063-178-61-97 - Тренер (Євгеній Свідерський)</p>
+            <p>097-404-95-33 - Тренер (Анатолій Свідерський)</p>
+		 
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2024 All rights reserved  </a>
+			</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
